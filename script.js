@@ -1,7 +1,7 @@
 const options = {
-    key: "2Y9er5VKrqFACCG3bmP7vVBE1hTENnwj", // REPLACE WITH YOUR KEY !!!
-    lat: 50.4,
-    lon: 14.3,
+    key: "2Y9er5VKrqFACCG3bmP7vVBE1hTENnwj", // REPLACE WITH YOUR KEY !!! 
+    lat: 40.0,
+    lon: 49.3,
     zoom: 5,
 };
 
@@ -31,7 +31,7 @@ windyInit(options, windyAPI => {
 
     // Wait since wather is rendered
     broadcast.once('redrawFinished', () => {
-        picker.open({ lat: 48.4, lon: 14.3 });
+        picker.open({ lat: 40.0, lon: 49.3 });
         // Opening of a picker (async)
     });
 });
