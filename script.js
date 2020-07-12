@@ -1,5 +1,5 @@
 const options = {
-    key: "F4FQljvvzdHIcWAsJwHT249jJxIRrLjh", // REPLACE WITH YOUR KEY !!!
+    key: "U9Rk9ou13xbRDlnrfN3B0z8hfsbTB9iv", // REPLACE WITH YOUR KEY !!!
     lat: 50.4,
     lon: 14.3,
     zoom: 5,
